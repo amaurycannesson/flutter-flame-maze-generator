@@ -1,0 +1,26 @@
+name: isometric_maze_generator
+description: An isometric maze generator built with Flutter and Flame
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: 1.0.0-releasecandidate.12
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/isometric-sandbox-32x32/
+    # "Isometric 32x32 Sandbox Pixel World" (c) 2021 by @route1rodent.
+    # https://route1rodent.itch.io/isometric-sandbox-pixel-world-32x32
